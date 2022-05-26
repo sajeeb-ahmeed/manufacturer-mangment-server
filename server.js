@@ -60,7 +60,28 @@ async function run() {
             res.send(tool);
         });
 
+        ////API to get all orders
+        app.get("/orders", async (req, res) => {
+            const orders = await ordersCollection.find({}).toArray();
+            res.send(orders);
+        });
 
+        //API to update a order
+        app.put("/orders/:id", async (req, res) => {
+            const orderId = req.params.id;
+            const order = req.body;
+            console.log("order", order);
+            const query = { _id: ObjectId(orderId) };
+            const options = { upsert: true };
+            const updatedOrder = await ordersCollection.updateOne(
+                query,
+                {
+                    $set: order,
+                },
+                options
+            );
+            res.send(updatedOrder);
+        });
 
 
     }
