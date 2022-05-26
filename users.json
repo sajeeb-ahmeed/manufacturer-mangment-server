@@ -1,12 +1,14 @@
 [
-    {
-      "email": "saminisrar1@gmail.com",
-      "role": "admin"
-    },
-    
-    {
-      "email": "saminisrar2@gmail.com",
-      "role": "user"
-    }
-
+  {
+    "email": "sajeeb.web@gmail.com",
+    "role": "admin"
+  },
+  {
+    "email": "sajeeb@gmail.com",
+    "role": "admin"
+  },
+  {
+    "email": "abc@gmail.com",
+    "role": "user"
+  }
 ]

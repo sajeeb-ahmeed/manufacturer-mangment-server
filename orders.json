@@ -30,8 +30,8 @@
     "isPaid": true
   },
   {
-    "userName": "Samin Israr Ravi",
-    "userEmail": "saminisrar1@gmail.com",
+    "userName": "Zareen",
+    "userEmail": "zareen@gmail.com",
     "toolName": "Drill Machine",
     "toolPrice": "100",
     "quantity": "200",
@@ -40,8 +40,8 @@
     "isPaid": true
   },
   {
-    "userName": "Samin Israr Ravi",
-    "userEmail": "saminisrar1@gmail.com",
+    "userName": "agroho",
+    "userEmail": "agroho@gmail.com",
     "toolName": "Hammer",
     "toolPrice": "100",
     "quantity": "200",
@@ -49,5 +49,4 @@
     "isDelivered": true,
     "isPaid": true
   }
-
 ]
